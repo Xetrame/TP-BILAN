@@ -1,11 +1,11 @@
 # TP-BILAN
-Ce README va vous permettre d'installer docker, docker-compose, Wordpress et Zabbix sur une machine Debian 12.
+Ce README va vous permettre d'installer **docker**, **docker-compose**, **Wordpress** et **Zabbix** sur une machine **Debian 12**.
 
 ---
 
 ## Prérequis :
 
-Prérequis : Avoir git d'installer sur votre machine. Sinon :
+Prérequis : Avoir **git** d'installer sur votre machine. Sinon :
 
 ```bash
 sudo apt install git -y
@@ -33,7 +33,7 @@ Ensuite placer vous dans le nouveau dossier :
 cd ./TP-BILAN
 ```
 
-On peut maintenant lancer le script qui va permettre d'installer automatiquement docker et docker-compose :
+On peut maintenant lancer le script qui va permettre d'installer automatiquement **docker** et **docker-compose** :
 
 ```bash
 bash install_docker.sh
@@ -57,7 +57,7 @@ docker-compose --version
 
 ## Wordpress :
 
-Maintenant on va installer Wordpress, on se place dans le dossier wordpress :
+Maintenant on va installer **Wordpress**, on se place dans le dossier wordpress :
 
 ```bash
 cd ./wordpress
@@ -85,7 +85,7 @@ Ex : 192.168.20.94:80
 
 ## Zabbix :
 
-On passe maintenant à l'installation de Zabbix.
+On passe maintenant à l'installation de **Zabbix**.
 
 On se place dans le bon dossier :
 
@@ -112,7 +112,7 @@ Si l'écran afficher erreur de connexion à la BDD, il faut attendre un peu le t
 
 ## Informations complémentaires :
 
-Voici les liens où j'ai trouvé les fichiers docker-compose pour wordpress et zabbix :
+Voici les liens où j'ai trouvé les fichiers docker-compose pour **Wordpress** et **Zabbix** :
 
 Wordpress : https://www.hostinger.com/fr/tutoriels/docker-wordpress
 
