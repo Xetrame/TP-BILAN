@@ -107,3 +107,16 @@ On peut maintenant se connecter avec :
 <img width="550" height="532" alt="zabbx" src="https://github.com/user-attachments/assets/75935c62-8a2c-4750-ba05-ae5778ef2dfa" />
 
 Si l'écran afficher erreur de connexion à la BDD, il faut attendre un peu le temps que sa fonctionne.
+
+---
+
+## Informations complémentaires :
+
+Voici les liens où j'ai trouvé les fichiers docker-compose pour wordpress et zabbix :
+
+Wordpress : https://www.hostinger.com/fr/tutoriels/docker-wordpress
+
+Zabbix : https://www.reddit.com/r/zabbix/comments/16jnhul/simplified_docker_compose/
+Zabbix : https://github.com/USBAkimbo/Random/blob/master/Docker/zabbix-example.yml
+
+J'ai modifié le fichier docker-compose de USBAkimbo pour modifier le port : 8081:8080 à la place de 8080:8080 car il était déjà utiliser pour accéder au php de wordpress.
