@@ -15,7 +15,6 @@ services:
       - --collation-server=utf8mb4_bin
       - --default-authentication-plugin=mysql_native_password
     environment:
-      - MYSQL_DATABASE=zabbix
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
@@ -39,8 +38,8 @@ services:
       - ${ZABBIX_DATA_PATH}/zabbix-server/ssh_keys:/var/lib/zabbix/ssh_keys:ro
       - ${ZABBIX_DATA_PATH}/zabbix-server/mibs:/var/lib/zabbix/mibs:ro
     environment:
-      - MYSQL_USER=${MYSQL_USER}
-      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_USER=root
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - DB_SERVER_HOST=zabbix-db
       - ZBX_STARTPINGERS=${ZBX_STARTPINGERS}
     depends_on:
