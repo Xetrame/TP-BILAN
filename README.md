@@ -34,7 +34,15 @@ bash install_docker.sh
 Voici le contenue du script si vous voulez en savoir plus :
 
 ```bash
-
+#! bin/bash
+apt update && apt upgrade -y
+echo "maj"
+apt install docker -y
+echo "install docker"
+apt install docker-compose -y
+echo "install docker-compose"
+docker --version
+docker-compose --version
 ```
 
 Maintenant on va installer Wordpress, on se place dans le dossier wordpress :
