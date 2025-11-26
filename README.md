@@ -1,6 +1,10 @@
 # TP-BILAN
 Ce README va vous permettre d'installer docker, docker-compose, Wordpress et Zabbix sur une machine Debian 12.
 
+---
+
+## Prérequis :
+
 Prérequis : Avoir git d'installer sur votre machine. Sinon :
 
 ```bash
@@ -12,6 +16,10 @@ Pour plus de simplicité, on se place en super utilisateur pour le reste du TP :
 ```bash
 su -
 ```
+
+---
+
+## Script Docker :
 
 On commence par copier ce dépôt github sur votre machine :
 
@@ -45,6 +53,10 @@ docker --version
 docker-compose --version
 ```
 
+---
+
+## Wordpress :
+
 Maintenant on va installer Wordpress, on se place dans le dossier wordpress :
 
 ```bash
@@ -66,6 +78,10 @@ IP-VM:80
 Ex : 192.168.20.94:80
 
 <img width="1387" height="959" alt="connexion wordpress" src="https://github.com/user-attachments/assets/4593fe1c-5ce2-43de-85d8-c2b9c6adea43" />
+
+---
+
+## Zabbix :
 
 On passe maintenant à l'installation de Zabbix.
 
