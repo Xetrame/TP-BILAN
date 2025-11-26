@@ -74,3 +74,7 @@ Puis on exécute également le docker-compose up :
 docker-compose up
 ```
 
+On peut maintenant se connecter avec :
+
+192.168.20.94:8081
+
