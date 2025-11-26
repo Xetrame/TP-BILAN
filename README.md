@@ -86,3 +86,4 @@ On peut maintenant se connecter avec :
 
 192.168.20.94:8081
 
+<img width="550" height="532" alt="zabbx" src="https://github.com/user-attachments/assets/75935c62-8a2c-4750-ba05-ae5778ef2dfa" />
