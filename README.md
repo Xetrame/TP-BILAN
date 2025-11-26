@@ -54,7 +54,7 @@ cd ./wordpress
 Et on lance docker-compose up :
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 On peut se connecter à l'interface web wordpress :
@@ -79,7 +79,7 @@ cd ./zabbix
 Puis on exécute également le docker-compose up :
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 On peut maintenant se connecter avec :
