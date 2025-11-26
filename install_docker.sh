@@ -1,5 +1,5 @@
 #! bin/bash
-apt update && apt upgrade
+apt update && apt upgrade -y
 echo "maj"
 apt install docker -y
 echo "install docker"
