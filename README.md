@@ -69,8 +69,6 @@ Et on lance docker-compose up :
 docker-compose up -d
 ```
 
-Si problèmes de connexion, il peut être nécessaire de relancer docker-compose up
-
 On peut se connecter à l'interface web wordpress :
 
 ```
@@ -104,9 +102,13 @@ On peut maintenant se connecter avec :
 
 192.168.20.94:8081
 
-<img width="550" height="532" alt="zabbx" src="https://github.com/user-attachments/assets/75935c62-8a2c-4750-ba05-ae5778ef2dfa" />
+Il met d'abord cette erreur quand on se connecte, il faut attendre que la BDD s'initialise :
 
-Si l'écran afficher erreur de connexion à la BDD, il faut attendre un peu le temps que sa fonctionne.
+<img width="665" height="230" alt="error" src="https://github.com/user-attachments/assets/45f62ca0-57f1-4c21-a0e9-679200d34c38" />
+
+Après un certain temps, une fois que la BDD est initialisé, on a bien accès à la page de connexion de zabbix :
+
+<img width="550" height="532" alt="zabbx" src="https://github.com/user-attachments/assets/75935c62-8a2c-4750-ba05-ae5778ef2dfa" />
 
 ---
 
